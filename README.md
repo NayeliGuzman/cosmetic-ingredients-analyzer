@@ -15,8 +15,9 @@ A data-driven tool for analyzing skincare products based on their ingredient lis
 - Python 3.9.20
 - Install dependencies with:
  
+```bash
 pip install -r requirements.txt
-
+```
 
 ## Usage:
 
@@ -28,7 +29,7 @@ jupyter notebook
 
 2. Open:
 
-ingredient-analyzer.ipynb
+[ingredient-analyzer.ipynb](ingredient-analyzer.ipynb)
 
 ## Future Improvements:
 
