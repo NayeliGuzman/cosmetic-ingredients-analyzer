@@ -23,9 +23,9 @@ pip install -r requirements.txt
 
 1. Run the notebook:
 
-bash
-
-jupyter notebook
+```bash
+jupyter lab
+```
 
 2. Open:
 
