@@ -42,8 +42,8 @@ streamlit run app.py
 ## Open the app in browser:
 1. Use the link
    
-[Skincare Product Similarity Explorer](URL "https://cosmetic-ingredients-analyzer-yqvf2l4zyezq6gfmuf2ekh.streamlit.app
-")
+[Skincare Product Similarity Explorer](https://cosmetic-ingredients-analyzer-yqvf2l4zyezq6gfmuf2ekh.streamlit.app
+)
 
 ## Future Improvements:
 
