@@ -20,24 +20,30 @@ A data-driven tool for analyzing skincare products based on their ingredient lis
 pip install -r requirements.txt
 ```
 
-## Usage:
+## How to Run the Notebook:
 
-1. Run the notebook:
+1. Run the notebook
 
 ```bash
 jupyter lab
 ```
 
-2. Open:
+2. Open
 
 [ingredient-analyzer.ipynb](ingredient-analyzer.ipynb)
 
-3. To run the app locally
+## Run the app locally: 
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Open the app in browser:
+1. Use the link
+   
+[Skincare Product Similarity Explorer](URL "https://cosmetic-ingredients-analyzer-yqvf2l4zyezq6gfmuf2ekh.streamlit.app
+")
 
 ## Future Improvements:
 
