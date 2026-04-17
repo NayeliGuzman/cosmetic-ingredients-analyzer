@@ -3,8 +3,7 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# assume df already exists
-df = pd.read_csv("../data/skincare_data.csv")
+df = pd.read_csv("../data/processed_data/skincare_data.csv")
 G = nx.DiGraph()
 
 for _, row in df.iterrows():
@@ -24,7 +23,6 @@ st.subheader("Products that consider this similar")
 incoming = list(G.predecessors(product))
 st.write(incoming)
 
-# simple graph view (ego network)
 subG = G.subgraph(incoming + [product])
 
 pos = nx.spring_layout(subG, k=1.2, seed=42)

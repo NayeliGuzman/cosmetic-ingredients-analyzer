@@ -10,6 +10,7 @@ A data-driven tool for analyzing skincare products based on their ingredient lis
 - Compute similarity scores using Jaccard similarity
 - Find the most similar products for each item in the dataset
 - Flag potential incompatibilities between products
+- Interactive Streamlit dashboard
 
 ## Environment:
 - Python 3.9.20
@@ -30,6 +31,13 @@ jupyter lab
 2. Open:
 
 [ingredient-analyzer.ipynb](ingredient-analyzer.ipynb)
+
+3. To run the app locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
 
 ## Future Improvements:
 
